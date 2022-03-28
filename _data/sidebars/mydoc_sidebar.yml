@@ -76,6 +76,10 @@ entries:
         url: /mydoc_introduction_git.html
         output: web, pdf
 
+      - title: Using Git and VSCode
+        url: /mydoc_git_and_vscode.html
+        output: web, pdf
+
       - title: Git Bash
         url: /mydoc_git_bash.html
         output: web, pdf
