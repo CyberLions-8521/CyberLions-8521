@@ -3,7 +3,7 @@ title: Using Git and VSCode
 tags: [vscode, git]
 sidebar: mydoc_sidebar
 last_updated: Mar 28, 2022
-summary: "This is a page mainly to show this theme's capabilities and serve as a quick reference for editors."
+summary: "VSCode provides integrated support for Git. With additional benefits like extensions, it's much easier to use the controls by VSCode than inputting commands."
 permalink: mydoc_git_and_vscode.html
 folder: mydoc
 ---
@@ -18,7 +18,7 @@ VSCode has built-in support for Git ([so long you have installed it](mydoc_insta
 
 {% include tip.html content="The number next to the icon indicates the number of files changed in your current repository." %}
 
-### Opening a repository
+## Opening a repository
 
 If VSCode is not in a repository, the source control menu will show options to open a folder with a repository or to clone one from GitHub.
 
@@ -32,7 +32,13 @@ More often you'll be choosing the latter option. By choosing this option, VSCode
 
 If you have downloaded a repo already, or want to make a local repo before publishing it, then use the former option. If you open a folder *without* a repo, you'll have an option to initialize one. You'll also have the option to publish it to GitHub.
 
-### Staging and committing
+## Checking out branches
+
+You can use the <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.statusbar}}">status bar</a> to quickly <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.checkout}}">check out</a> another branch. Look for the button with branch icon (same icon used for Source Control) and the currently checked out branch's name, and click on it. A dropdown will appear allowing you to select your branch to check out, both from your local repo and the remote repo (prefixed with origin/).
+
+You may alternatively use the source control tab. In the tab, press the 3 dots to access the dropdown, then press `Checkout to...`. Similarly, a dropdown will appear for you to select a branch to checkout to.
+
+## Staging and committing
 
 When you edit, add, or delete files, the name of the file will be colored and a status letter will appear to the right of it. These will also be shown under Source Control > Changes.
 
@@ -45,5 +51,13 @@ When you edit, add, or delete files, the name of the file will be colored and a 
 **U**: Untracked. Means the file was not tracked by the repo before, so it's likely a new file.
 
 If you click on the files in the source control, it will open the difftool - a comparison tool that displays the modifications from the previous commit to the current change. If you hover over the files, there will be 3 options: opening the file, discarding the change, and <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stage}}">staging</a> the change. Hovering over the dropdown will have a <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stash}}">stash</a> changes option in place of opening the file option.
+
+## Pushing
+
+You may push either from the <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.statusbar}}">status bar</a> or source control tab.
+
+After making a local commit, the status bar will update with an uparrow and the number of unpushed commits to the left of it. Clicking it will push changes.
+
+The source control tab has a dropdown accessible through the 3 dots. Accessing it shows `Push` as one of the elements. Clicking it will also push changes.
 
 {% include links.html %}

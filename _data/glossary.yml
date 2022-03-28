@@ -1,11 +1,14 @@
-tooltip: "The tooltip, also known as infotip or hint, is a common graphical user interface (GUI) element in which, when hovering over a screen element or component, a text box displays information about that element, such as a description of a button's function, what an abbreviation stands for, or the exact absolute time stamp"
+# VSCode
+statusbar: "The bar on the bottom of VSCode, colored bright blue by default."
 
+# Git
 clone: "Copying a repository from a server to your own computer."
-
 push: "Uploads changes from a local branch to a remote branch."
-
 stage: "Moves changes from the working directory to the staging area in preparation for committing."
-
 stash: "Moves changes to the stash where it can be later reapplied. Useful if you want to checkout another branch but not totally discard the current changes."
+checkout: "Switches to another branch. Updates the files in the working directories to the ones found in the checked out branch."
+
+# Misc
+tooltip: "The tooltip, also known as infotip or hint, is a common graphical user interface (GUI) element in which, when hovering over a screen element or component, a text box displays information about that element, such as a description of a button's function, what an abbreviation stands for, or the exact absolute time stamp"
 
 # Copyright 2021 Google LLC
