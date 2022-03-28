@@ -1,5 +1,6 @@
 ---
 title: Introduction to git
+tags: [git]
 sidebar: mydoc_sidebar
 last_updated: Mar 28, 2022
 summary: "Git is a distributed version control software. Utilizing the concept of branches, Git allows programmers to work in parallel and collaboratively. GitHub is a cloud-based hosting service for managing Git repositories."

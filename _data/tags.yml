@@ -15,5 +15,6 @@ allowed-tags:
   - mobile
   - installation
   - vscode
+  - git
 
 # Copyright 2021 Google LLC

@@ -1,6 +1,6 @@
 ---
 title: Installing Git
-tags: [installation]
+tags: [installation, git]
 keywords: installing
 last_updated: Mar 17, 2022
 summary: "This page lists instructions on installing and configuring Git."
