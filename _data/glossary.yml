@@ -1,15 +1,11 @@
-jekyll_platform: "Jekyll is a static site generator that builds sites using most modern web technologies."
-
-fractious: "Like a little mischevious child, full of annoying and constant trouble."
-
-gratuitous: "Something that is unwarranted and uncouth, like the social equivalent of a flagrant foul."
-
-haughty: "Proud and flaunting it. Holding your head high up like a snooty, too-good-for-everything rich person."
-
-impertinent: "Someone acting rude and insensitive to others."
-
-intrepid: "Brave and courageous especially in a difficult, dangerous situation."
-
 tooltip: "The tooltip, also known as infotip or hint, is a common graphical user interface (GUI) element in which, when hovering over a screen element or component, a text box displays information about that element, such as a description of a button's function, what an abbreviation stands for, or the exact absolute time stamp"
+
+clone: "Copying a repository from a server to your own computer."
+
+push: "Uploads changes from a local branch to a remote branch."
+
+stage: "Moves changes from the working directory to the staging area in preparation for committing."
+
+stash: "Moves changes to the stash where it can be later reapplied. Useful if you want to checkout another branch but not totally discard the current changes."
 
 # Copyright 2021 Google LLC
