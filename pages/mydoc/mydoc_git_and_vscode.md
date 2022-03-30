@@ -2,7 +2,7 @@
 title: Using Git and VSCode
 tags: [vscode, git]
 sidebar: mydoc_sidebar
-last_updated: Mar 28, 2022
+last_updated: Mar 30, 2022
 summary: "VSCode provides integrated support for Git. With additional benefits like extensions, it's much easier to use the controls by VSCode than inputting commands."
 permalink: mydoc_git_and_vscode.html
 folder: mydoc
@@ -52,12 +52,18 @@ When you edit, add, or delete files, the name of the file will be colored and a 
 
 If you click on the files in the source control, it will open the difftool - a comparison tool that displays the modifications from the previous commit to the current change. If you hover over the files, there will be 3 options: opening the file, discarding the change, and <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stage}}">staging</a> the change. Hovering over the dropdown will have a <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stash}}">stash</a> changes option in place of opening the file option.
 
-## Pushing
+## Pushing and pulling
 
-You may push either from the <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.statusbar}}">status bar</a> or source control tab.
+You may push/pull either from the <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.statusbar}}">status bar</a> or source control tab.
 
-After making a local commit, the status bar will update with an uparrow and the number of unpushed commits to the left of it. Clicking it will push changes.
+After making a local commit, or if the remote branch changes, the status bar's synchronize changes button will update with a downarrow and uparrow. Clicking it will push/pull changes.
 
-The source control tab has a dropdown accessible through the 3 dots. Accessing it shows `Push` as one of the elements. Clicking it will also push changes.
+The source control tab has a dropdown accessible through the 3 dots. Accessing it shows `Push` and `Pull` as some of the elements. Clicking it will also push/pull changes.
+
+## Fetching
+
+You may fetch from the source control dropdown menu in `Push, Pull > Fetch`. You can also enable automatic fetching by accessing your VSCode settings and setting Git: Autofetch to true.
+
+## Merging and resolving conflicts
 
 {% include links.html %}
